@@ -12,6 +12,7 @@ h1, h2 {
   color: #5d8432;
   text-transform: uppercase;
   font-family: "Patua One", serif;
+  font-weight: bold;
 }
 
 figcaption {
@@ -42,4 +43,8 @@ nav a:hover {
 
 .intro {
   font-size: 1rem;
+}
+
+[href^="http://"] {
+  text-decoration: none;
 }
